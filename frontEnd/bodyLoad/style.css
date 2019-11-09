@@ -18,11 +18,44 @@ body{
     -moz-box-shadow: -14px 12px 29px 0px rgba(0,0,0,0.54);
     box-shadow: -14px 12px 29px 0px rgba(0,0,0,0.54);
 }
-#loadCercle img{
-    width:10%;
-    margin-top: 18%;
+.Container img{
+    width:75px;
+    margin-top: 21%;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
 }
-
+#spinner {
+    width: 121px;
+    height: 121px;
+    
+    border: 4px solid #b8b8b8;
+    border-top:4px solid #bd6052;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+#overlay{
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+   }
 /*
 #loadCercle span{
     height: 140px;
