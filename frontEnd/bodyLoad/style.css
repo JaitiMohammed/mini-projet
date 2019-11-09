@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(161, 150, 150);
+    
+}
+.Container{
+    height: 90vh;
+    display: block;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    -webkit-box-shadow: -14px 12px 29px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: -14px 12px 29px 0px rgba(0,0,0,0.54);
+    box-shadow: -14px 12px 29px 0px rgba(0,0,0,0.54);
+}
+#loadCercle img{
+    width:10%;
+    margin-top: 18%;
+}
+
+/*
+#loadCercle span{
+    height: 140px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 1px solid #000000;
+}
+*/
+
